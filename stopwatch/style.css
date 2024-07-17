@@ -1,0 +1,24 @@
+body{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 700px;
+}
+.container{
+    text-align: center;
+}
+buttons{
+    margin-top: 20px;
+}
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button.stop {
+    background-color: red;
+  }
